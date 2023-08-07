@@ -4,15 +4,15 @@
             "name": "Currency",
             "description": "Query currency value in real-time.",
             "hash": "34a8565729a1b197c90098c36f44c51d3adf13aa",
-            "mod_time": "2023-08-07 23:00:58",
+            "mod_time": "2023-08-07 23:54:58",
             "relative_path": ".\/finance\/currency.json",
             "uuid": "99d5a176-5c3f-4084-ac36-93b6ff40501b"
         },
         {
-            "name": "Financial assistant",
-            "description": "Financial assistant",
-            "hash": "b87a6941f1dcb93204551384f603c30d5197f2e3",
-            "mod_time": "2023-08-07 23:00:58",
+            "name": "Financial Assistant",
+            "description": "A financial assistance tool.",
+            "hash": "f8ed050e7e6ac4d75fa62f5a156e41121b832f91",
+            "mod_time": "2023-08-07 23:54:58",
             "relative_path": ".\/finance\/financial-assistant.json",
             "uuid": "99d5bdff-9062-4aee-84cf-1972e598da93"
         }
@@ -22,7 +22,7 @@
             "name": "Calculator",
             "description": "A simple calculator.",
             "hash": "49b715f2873a66c6f091706736666c29eab7bf06",
-            "mod_time": "2023-08-07 23:00:58",
+            "mod_time": "2023-08-07 23:54:58",
             "relative_path": ".\/math\/calculator.json",
             "uuid": "99d57353-3366-4aff-aabb-95d209a2ad19"
         }

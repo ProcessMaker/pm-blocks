@@ -1,10 +1,18 @@
 {
     "finance": [
         {
+            "name": "BLOCK - Financial assistant",
+            "description": "BLOCK - Financial assistant",
+            "hash": "c7dcaa2ed1b080e7188ab314c2977d560ed47bc6",
+            "mod_time": "2023-08-07 19:28:01",
+            "relative_path": ".\/finance\/financial-assistant.json",
+            "uuid": "99d5bdff-9062-4aee-84cf-1972e598da93"
+        },
+        {
             "name": "Currency",
             "description": "Query currency value in real-time.",
             "hash": "34a8565729a1b197c90098c36f44c51d3adf13aa",
-            "mod_time": "2023-08-07 18:29:25",
+            "mod_time": "2023-08-07 19:28:01",
             "relative_path": ".\/finance\/currency.json",
             "uuid": "99d5a176-5c3f-4084-ac36-93b6ff40501b"
         }
@@ -14,7 +22,7 @@
             "name": "Calculator",
             "description": "A simple calculator.",
             "hash": "49b715f2873a66c6f091706736666c29eab7bf06",
-            "mod_time": "2023-08-07 18:29:25",
+            "mod_time": "2023-08-07 19:28:02",
             "relative_path": ".\/math\/calculator.json",
             "uuid": "99d57353-3366-4aff-aabb-95d209a2ad19"
         }

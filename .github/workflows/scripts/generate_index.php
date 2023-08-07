@@ -35,8 +35,6 @@ function main() {
         $data = json_decode(file_get_contents($filepath), true);
         $category = str_replace("./", "", $file->getPath());
 
-        // var_dump($data["export"][$data["root"]]["attributes"]); exit;
-
         $block_info = [
             "name" => $data["name"],
             "description" => $data["export"][$data["root"]]["description"],

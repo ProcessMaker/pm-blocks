@@ -3,16 +3,16 @@
         {
             "name": "Currency",
             "description": "Query currency value in real-time.",
-            "hash": "34a8565729a1b197c90098c36f44c51d3adf13aa",
-            "mod_time": "2023-08-07 23:54:58",
+            "hash": "260566281cc9d6d3ebf93d045a85ddc9757afff0",
+            "mod_time": "2023-08-11 18:11:33",
             "relative_path": ".\/finance\/currency.json",
             "uuid": "99d5a176-5c3f-4084-ac36-93b6ff40501b"
         },
         {
             "name": "Financial Assistant",
             "description": "A financial assistance tool.",
-            "hash": "f8ed050e7e6ac4d75fa62f5a156e41121b832f91",
-            "mod_time": "2023-08-07 23:54:58",
+            "hash": "8fe38c771290da97e68a3b1c62d6072e149c304d",
+            "mod_time": "2023-08-11 18:11:33",
             "relative_path": ".\/finance\/financial-assistant.json",
             "uuid": "99d5bdff-9062-4aee-84cf-1972e598da93"
         }
@@ -21,8 +21,8 @@
         {
             "name": "Calculator",
             "description": "A simple calculator.",
-            "hash": "49b715f2873a66c6f091706736666c29eab7bf06",
-            "mod_time": "2023-08-07 23:54:58",
+            "hash": "03207c4fdc8843f0549cf52b4a3333ecd23ac3a2",
+            "mod_time": "2023-08-11 18:11:33",
             "relative_path": ".\/math\/calculator.json",
             "uuid": "99d57353-3366-4aff-aabb-95d209a2ad19"
         }

@@ -14,7 +14,7 @@ function update_readme($categories) {
         fwrite($readme, "\n## $category\n");
         usort($blocks, function($a, $b) { return strcmp($a['name'], $b['name']); });  // Sort blocks alphabetically within each category
         foreach ($blocks as $block) {
-            fwrite($readme, "- **[{$block['name']}](/{$block['relative_path']})**: {$block['description']}\n");
+            fwrite($readme, "- **[{$block['name']}](/{$block['relative_path']})**: {$block['description']} (Version {$block['version']})\n");
         }
     }
     fclose($readme);
@@ -31,9 +31,10 @@ function main() {
         if ($file->getFilename() == "index.json") continue;
 
         $filepath = $file->getPathname();
-        $mod_time = date("Y-m-d H:i:s", filemtime($filepath));
         $data = json_decode(file_get_contents($filepath), true);
         $category = str_replace("./", "", $file->getPath());
+        $version = json_decode($data["export"][$data["root"]]["attributes"]["meta"], true)["version"];
+        $mod_time = $data["export"][$data["root"]]["attributes"]["updated_at"];
 
         $block_info = [
             "name" => $data["name"],
@@ -42,6 +43,7 @@ function main() {
             "mod_time" => $mod_time,
             "relative_path" => $filepath,
             "uuid" => $data["root"],
+            "version" => $version,
         ];
 
         if (!isset($categories[$category])) {

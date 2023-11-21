@@ -1,5 +1,5 @@
 {
-    "type": "pm_block_package",
+    "type": "pm_block_package", 
     "version": "2",
     "root": "99d5bdff-9062-4aee-84cf-1972e598da93",
     "name": "Financial Assistant",

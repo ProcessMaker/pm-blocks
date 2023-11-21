@@ -5,4 +5,5 @@ Explore our ready-to-go PM Blocks to kick-start your automation. Deploy these ut
 - **[Financial Assistant](/./finance/financial-assistant.json)**: A financial assistance tool. (Version 1.0.0)
 
 ## Math
+- **[Calculator](/./math/calculator-copy.json)**: A simple calculator. (Version 1.0.0)
 - **[Calculator](/./math/calculator.json)**: A simple calculator. (Version 1.0.0)

@@ -25,6 +25,15 @@
             "description": "A simple calculator.",
             "hash": "03207c4fdc8843f0549cf52b4a3333ecd23ac3a2",
             "mod_time": "2023-08-07 15:02:20",
+            "relative_path": ".\/math\/calculator-copy.json",
+            "uuid": "99d57353-3366-4aff-aabb-95d209a2ad19",
+            "version": "1.0.0"
+        },
+        {
+            "name": "Calculator",
+            "description": "A simple calculator.",
+            "hash": "03207c4fdc8843f0549cf52b4a3333ecd23ac3a2",
+            "mod_time": "2023-08-07 15:02:20",
             "relative_path": ".\/math\/calculator.json",
             "uuid": "99d57353-3366-4aff-aabb-95d209a2ad19",
             "version": "1.0.0"

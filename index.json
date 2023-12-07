@@ -3,8 +3,8 @@
         {
             "name": "Currency",
             "description": "Query currency value in real-time.",
-            "hash": "260566281cc9d6d3ebf93d045a85ddc9757afff0",
-            "mod_time": "2023-08-07 17:36:25",
+            "hash": "a7c8b519db2d421d82757a690330e20f6a5c20f0",
+            "mod_time": "2023-12-07 14:59:09",
             "relative_path": ".\/finance\/currency.json",
             "uuid": "99d5a176-5c3f-4084-ac36-93b6ff40501b",
             "version": "1.0.0"
@@ -12,8 +12,8 @@
         {
             "name": "Financial Assistant",
             "description": "A financial assistance tool.",
-            "hash": "8fe38c771290da97e68a3b1c62d6072e149c304d",
-            "mod_time": "2023-08-07 19:25:57",
+            "hash": "0cffe9aa0804f8e28eb1a9111118962f08165a0b",
+            "mod_time": "2023-12-07 14:59:13",
             "relative_path": ".\/finance\/financial-assistant.json",
             "uuid": "99d5bdff-9062-4aee-84cf-1972e598da93",
             "version": "1.0.0"

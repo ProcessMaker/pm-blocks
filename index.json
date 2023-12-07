@@ -3,8 +3,8 @@
         {
             "name": "Currency",
             "description": "Query currency value in real-time.",
-            "hash": "f9ffdea9236545841d54755957679cc49ad9cc40",
-            "mod_time": "2023-12-07 19:24:55",
+            "hash": "16923ee45f661e9e63dc05ebfde648dbf2c58d81",
+            "mod_time": "2023-12-07 22:26:22",
             "relative_path": ".\/finance\/currency.json",
             "uuid": "99d5a176-5c3f-4084-ac36-93b6ff40501b",
             "version": "1.0.0"
@@ -23,8 +23,8 @@
         {
             "name": "Calculator",
             "description": "A simple calculator.",
-            "hash": "c5479d5360f6c451dc2e38f583e9ac3cd3188377",
-            "mod_time": "2023-12-07 19:24:58",
+            "hash": "af1e80c3e93e8d5ec915a926e81ca2b2251c3456",
+            "mod_time": "2023-12-07 22:26:23",
             "relative_path": ".\/math\/calculator.json",
             "uuid": "99d57353-3366-4aff-aabb-95d209a2ad19",
             "version": "1.0.0"

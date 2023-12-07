@@ -12,8 +12,8 @@
         {
             "name": "Financial Assistant",
             "description": "A financial assistance tool.",
-            "hash": "e10cba8d93c781afb7a4098bf4e86ba2f8d4b1f2",
-            "mod_time": "2023-12-07 19:24:57",
+            "hash": "98b13148f7f7bcb755920994195982be67514b8a",
+            "mod_time": "2023-12-07 20:30:10",
             "relative_path": ".\/finance\/financial-assistant.json",
             "uuid": "99d5bdff-9062-4aee-84cf-1972e598da93",
             "version": "1.0.0"

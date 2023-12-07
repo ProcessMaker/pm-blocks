@@ -89,9 +89,9 @@
                                             "exporterClass": "ProcessMaker\\ImportExport\\Exporters\\ScriptExporter",
                                             "modelClass": "ProcessMaker\\Models\\Script",
                                             "fallbackMatches": {
-                                                "title": "PHP calculator 2"
+                                                "title": "PHP calculator"
                                             },
-                                            "name": "PHP calculator 2",
+                                            "name": "PHP calculator",
                                             "discard": false
                                         }
                                     ],
@@ -201,7 +201,7 @@
                                             "discard": false
                                         }
                                     ],
-                                    "name": "PHP calculator 2",
+                                    "name": "PHP calculator",
                                     "description": "PHP calculator",
                                     "process_manager": "",
                                     "process_manager_id": null,
@@ -209,7 +209,7 @@
                                         "id": 13,
                                         "uuid": "99d57352-e53a-4d75-8493-ddd71649c2fd",
                                         "key": null,
-                                        "title": "PHP calculator 2",
+                                        "title": "PHP calculator",
                                         "description": "PHP calculator",
                                         "language": "php",
                                         "code": "<?php \n/*  \n *  Welcome to ProcessMaker 4 Script Editor \n *  To access Environment Variables use getenv(\"ENV_VAR_NAME\") \n *  To access Request Data use $data \n *  To access Configuration Data use $config \n *  To preview your script, click the Run button using the provided input and config data \n *  Return an array and it will be merged with the processes data \n *  Example API to retrieve user email by their ID $api->users()->getUserById(1)['email'] \n *  API Documentation https://github.com/ProcessMaker/docker-executor-php/tree/master/docs/sdk \n */\n\n$operator = $data['operator'];\n$number1 = $data['number1'];\n$number2 = $data['number2'];\nif ($operator==\"Add\")\n    $operationResult=$number1+$number2;\nelseif ($operator ==\"Substract\")\n    $operationResult=$number1-$number2;\nelseif ($operator ==\"Multiply\")\n    $operationResult=$number1*$number2;\nelseif ($operator ==\"Divide\")\n    $operationResult=$number1/$number2;\nelse\n    $operationResult=\"invalid input\";\n\n return [\"operationResult\" => $operationResult];",
@@ -335,9 +335,9 @@
                     "exporterClass": "ProcessMaker\\ImportExport\\Exporters\\ScriptExporter",
                     "modelClass": "ProcessMaker\\Models\\Script",
                     "fallbackMatches": {
-                        "title": "PHP calculator 2"
+                        "title": "PHP calculator"
                     },
-                    "name": "PHP calculator 2",
+                    "name": "PHP calculator",
                     "discard": false
                 }
             ],
@@ -876,7 +876,7 @@
                     "discard": false
                 }
             ],
-            "name": "PHP calculator 2",
+            "name": "PHP calculator",
             "description": "PHP calculator",
             "process_manager": "",
             "process_manager_id": null,
@@ -884,7 +884,7 @@
                 "id": 13,
                 "uuid": "99d57352-e53a-4d75-8493-ddd71649c2fd",
                 "key": null,
-                "title": "PHP calculator 2",
+                "title": "PHP calculator",
                 "description": "PHP calculator",
                 "language": "php",
                 "code": "<?php \n/*  \n *  Welcome to ProcessMaker 4 Script Editor \n *  To access Environment Variables use getenv(\"ENV_VAR_NAME\") \n *  To access Request Data use $data \n *  To access Configuration Data use $config \n *  To preview your script, click the Run button using the provided input and config data \n *  Return an array and it will be merged with the processes data \n *  Example API to retrieve user email by their ID $api->users()->getUserById(1)['email'] \n *  API Documentation https://github.com/ProcessMaker/docker-executor-php/tree/master/docs/sdk \n */\n\n$operator = $data['operator'];\n$number1 = $data['number1'];\n$number2 = $data['number2'];\nif ($operator==\"Add\")\n    $operationResult=$number1+$number2;\nelseif ($operator ==\"Substract\")\n    $operationResult=$number1-$number2;\nelseif ($operator ==\"Multiply\")\n    $operationResult=$number1*$number2;\nelseif ($operator ==\"Divide\")\n    $operationResult=$number1/$number2;\nelse\n    $operationResult=\"invalid input\";\n\n return [\"operationResult\" => $operationResult];",

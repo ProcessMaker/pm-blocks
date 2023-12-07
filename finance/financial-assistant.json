@@ -90,11 +90,11 @@
                                     "process_manager": "Admin User",
                                     "process_manager_id": 1,
                                     "attributes": {
-                                        "id": 11,
+                                        "id": 14,
                                         "uuid": "99d5bdff-0358-4b78-b1a9-47f59d9ea134",
                                         "process_category_id": 2,
                                         "user_id": 1,
-                                        "bpmn": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<bpmn:definitions xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:bpmn=\"http://www.omg.org/spec/BPMN/20100524/MODEL\" xmlns:bpmndi=\"http://www.omg.org/spec/BPMN/20100524/DI\" xmlns:dc=\"http://www.omg.org/spec/DD/20100524/DC\" xmlns:di=\"http://www.omg.org/spec/DD/20100524/DI\" xmlns:pm=\"http://processmaker.com/BPMN/2.0/Schema.xsd\" xmlns:tns=\"http://sourceforge.net/bpmn/definitions/_1530553328908\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" targetNamespace=\"http://bpmn.io/schema/bpmn\" exporter=\"ProcessMaker Modeler\" exporterVersion=\"1.0\" xsi:schemaLocation=\"http://www.omg.org/spec/BPMN/20100524/MODEL http://bpmn.sourceforge.net/schemas/BPMN20.xsd\">\n  <bpmn:process id=\"ProcessId\" name=\"ProcessName\" isExecutable=\"true\">\n    <bpmn:startEvent id=\"node_1\" name=\"Start Event\" pm:allowInterstitial=\"false\" pm:config=\"{&quot;web_entry&quot;:null}\">\n      <bpmn:outgoing>node_28</bpmn:outgoing>\n    </bpmn:startEvent>\n    <bpmn:scriptTask id=\"node_10\" name=\"Script Task\" pm:scriptRef=\"16\">\n      <bpmn:incoming>node_28</bpmn:incoming>\n      <bpmn:outgoing>node_23</bpmn:outgoing>\n    </bpmn:scriptTask>\n    <bpmn:endEvent id=\"node_20\" name=\"End Event\">\n      <bpmn:incoming>node_23</bpmn:incoming>\n    </bpmn:endEvent>\n    <bpmn:sequenceFlow id=\"node_23\" sourceRef=\"node_10\" targetRef=\"node_20\"/>\n    <bpmn:sequenceFlow id=\"node_28\" sourceRef=\"node_1\" targetRef=\"node_10\"/>\n  </bpmn:process>\n  <bpmndi:BPMNDiagram id=\"BPMNDiagramId\">\n    <bpmndi:BPMNPlane id=\"BPMNPlaneId\" bpmnElement=\"ProcessId\">\n      <bpmndi:BPMNShape id=\"node_1_di\" bpmnElement=\"node_1\">\n        <dc:Bounds x=\"221\" y=\"248\" width=\"36\" height=\"36\"/>\n      </bpmndi:BPMNShape>\n      <bpmndi:BPMNShape id=\"node_10_di\" bpmnElement=\"node_10\">\n        <dc:Bounds x=\"336\" y=\"228\" width=\"116\" height=\"76\"/>\n      </bpmndi:BPMNShape>\n      <bpmndi:BPMNShape id=\"node_20_di\" bpmnElement=\"node_20\">\n        <dc:Bounds x=\"555\" y=\"249\" width=\"36\" height=\"36\"/>\n      </bpmndi:BPMNShape>\n      <bpmndi:BPMNEdge id=\"node_23_di\" bpmnElement=\"node_23\">\n        <di:waypoint x=\"394\" y=\"266\"/>\n        <di:waypoint x=\"573\" y=\"267\"/>\n      </bpmndi:BPMNEdge>\n      <bpmndi:BPMNEdge id=\"node_28_di\" bpmnElement=\"node_28\">\n        <di:waypoint x=\"239\" y=\"266\"/>\n        <di:waypoint x=\"394\" y=\"266\"/>\n      </bpmndi:BPMNEdge>\n    </bpmndi:BPMNPlane>\n  </bpmndi:BPMNDiagram>\n</bpmn:definitions>\n",
+                                        "bpmn": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<bpmn:definitions xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:bpmn=\"http://www.omg.org/spec/BPMN/20100524/MODEL\" xmlns:bpmndi=\"http://www.omg.org/spec/BPMN/20100524/DI\" xmlns:dc=\"http://www.omg.org/spec/DD/20100524/DC\" xmlns:di=\"http://www.omg.org/spec/DD/20100524/DI\" xmlns:pm=\"http://processmaker.com/BPMN/2.0/Schema.xsd\" xmlns:tns=\"http://sourceforge.net/bpmn/definitions/_1530553328908\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" targetNamespace=\"http://bpmn.io/schema/bpmn\" exporter=\"ProcessMaker Modeler\" exporterVersion=\"1.0\" xsi:schemaLocation=\"http://www.omg.org/spec/BPMN/20100524/MODEL http://bpmn.sourceforge.net/schemas/BPMN20.xsd\">\n  <bpmn:process id=\"ProcessId\" name=\"ProcessName\" isExecutable=\"true\">\n    <bpmn:startEvent id=\"node_1\" name=\"Start Event\" pm:allowInterstitial=\"false\" pm:config=\"{&quot;web_entry&quot;:null}\">\n      <bpmn:outgoing>node_28</bpmn:outgoing>\n    </bpmn:startEvent>\n    <bpmn:scriptTask id=\"node_10\" name=\"Script Task\" pm:scriptRef=\"19\">\n      <bpmn:incoming>node_28</bpmn:incoming>\n      <bpmn:outgoing>node_23</bpmn:outgoing>\n    </bpmn:scriptTask>\n    <bpmn:endEvent id=\"node_20\" name=\"End Event\">\n      <bpmn:incoming>node_23</bpmn:incoming>\n    </bpmn:endEvent>\n    <bpmn:sequenceFlow id=\"node_23\" sourceRef=\"node_10\" targetRef=\"node_20\"/>\n    <bpmn:sequenceFlow id=\"node_28\" sourceRef=\"node_1\" targetRef=\"node_10\"/>\n  </bpmn:process>\n  <bpmndi:BPMNDiagram id=\"BPMNDiagramId\">\n    <bpmndi:BPMNPlane id=\"BPMNPlaneId\" bpmnElement=\"ProcessId\">\n      <bpmndi:BPMNShape id=\"node_1_di\" bpmnElement=\"node_1\">\n        <dc:Bounds x=\"221\" y=\"248\" width=\"36\" height=\"36\"/>\n      </bpmndi:BPMNShape>\n      <bpmndi:BPMNShape id=\"node_10_di\" bpmnElement=\"node_10\">\n        <dc:Bounds x=\"336\" y=\"228\" width=\"116\" height=\"76\"/>\n      </bpmndi:BPMNShape>\n      <bpmndi:BPMNShape id=\"node_20_di\" bpmnElement=\"node_20\">\n        <dc:Bounds x=\"555\" y=\"249\" width=\"36\" height=\"36\"/>\n      </bpmndi:BPMNShape>\n      <bpmndi:BPMNEdge id=\"node_23_di\" bpmnElement=\"node_23\">\n        <di:waypoint x=\"394\" y=\"266\"/>\n        <di:waypoint x=\"573\" y=\"267\"/>\n      </bpmndi:BPMNEdge>\n      <bpmndi:BPMNEdge id=\"node_28_di\" bpmnElement=\"node_28\">\n        <di:waypoint x=\"239\" y=\"266\"/>\n        <di:waypoint x=\"394\" y=\"266\"/>\n      </bpmndi:BPMNEdge>\n    </bpmndi:BPMNPlane>\n  </bpmndi:BPMNDiagram>\n</bpmn:definitions>\n",
                                         "description": "A financial assistance tool.",
                                         "name": "Financial Assistant",
                                         "cancel_screen_id": null,
@@ -105,7 +105,7 @@
                                         "pause_timer_start": 0,
                                         "deleted_at": null,
                                         "created_at": "2023-08-07 18:16:26",
-                                        "updated_at": "2023-12-07 19:24:57",
+                                        "updated_at": "2023-12-07 20:30:10",
                                         "start_events": "[{\"id\": \"node_1\", \"name\": \"Start Event\", \"config\": \"{\\\"web_entry\\\":null}\", \"ownerProcessId\": \"ProcessId\", \"eventDefinitions\": [], \"ownerProcessName\": \"ProcessName\", \"allowInterstitial\": \"false\"}]",
                                         "warnings": null,
                                         "self_service_tasks": "[]",
@@ -157,14 +157,14 @@
                                         },
                                         {
                                             "type": "executor",
-                                            "uuid": "9acb3c7c-a8fc-4f99-8921-1e9269b4400e",
+                                            "uuid": "9acb37b3-a8ed-49dc-b4de-f686ad4e286f",
                                             "meta": null,
                                             "exporterClass": "ProcessMaker\\ImportExport\\Exporters\\ScriptExecutorExporter",
                                             "modelClass": "ProcessMaker\\Models\\ScriptExecutor",
                                             "fallbackMatches": {
-                                                "title": "Node Executor for SSR"
+                                                "title": "PHP Executor"
                                             },
-                                            "name": "Node Executor for SSR",
+                                            "name": "PHP Executor",
                                             "discard": false
                                         }
                                     ],
@@ -173,7 +173,7 @@
                                     "process_manager": "",
                                     "process_manager_id": null,
                                     "attributes": {
-                                        "id": 16,
+                                        "id": 19,
                                         "uuid": "99d5bdff-0c00-492f-a5eb-c112597d4006",
                                         "key": null,
                                         "title": "OpenAI completion API",
@@ -188,7 +188,7 @@
                                         "updated_at": "2023-08-07 18:08:50",
                                         "status": "ACTIVE",
                                         "script_category_id": 1,
-                                        "script_executor_id": 4,
+                                        "script_executor_id": 3,
                                         "is_template": 0,
                                         "asset_type": "PM_BLOCK"
                                     },
@@ -198,41 +198,6 @@
                                     "references": {
                                         "uncategorized-category": true
                                     }
-                                },
-                                "9acb3c7c-a8fc-4f99-8921-1e9269b4400e": {
-                                    "exporter": "ProcessMaker\\ImportExport\\Exporters\\ScriptExecutorExporter",
-                                    "type": "ScriptExecutor",
-                                    "type_human": "Script Executor",
-                                    "type_plural": "ScriptExecutors",
-                                    "type_human_plural": "Script Executors",
-                                    "last_modified_by": "",
-                                    "last_modified_by_id": null,
-                                    "model": "ProcessMaker\\Models\\ScriptExecutor",
-                                    "force_password_protect": false,
-                                    "hidden": false,
-                                    "mode": "copy",
-                                    "saveAssetsMode": "saveAllAssets",
-                                    "explicit_discard": false,
-                                    "dependents": [],
-                                    "name": "Node Executor for SSR",
-                                    "description": "Node Executor for SSR",
-                                    "process_manager": "",
-                                    "process_manager_id": null,
-                                    "attributes": {
-                                        "id": 4,
-                                        "uuid": "9acb3c7c-a8fc-4f99-8921-1e9269b4400e",
-                                        "title": "Node Executor for SSR",
-                                        "description": "Node Executor for SSR",
-                                        "language": "javascript-ssr",
-                                        "config": null,
-                                        "is_system": 0,
-                                        "created_at": "2023-12-07 19:20:38",
-                                        "updated_at": "2023-12-07 19:20:38"
-                                    },
-                                    "extraAttributes": {
-                                        "translatedLanguages": []
-                                    },
-                                    "references": []
                                 }
                             }
                         }
@@ -263,12 +228,12 @@
             "process_manager": "",
             "process_manager_id": null,
             "attributes": {
-                "id": 2,
+                "id": 5,
                 "uuid": "99d5bdff-9062-4aee-84cf-1972e598da93",
                 "name": "Financial Assistant",
                 "description": "A financial assistance tool.",
                 "status": "ACTIVE",
-                "editing_process_id": 11,
+                "editing_process_id": 14,
                 "editing_process_uuid": "99d5bdff-0358-4b78-b1a9-47f59d9ea134",
                 "user_id": null,
                 "pm_block_category_id": 2,
@@ -280,7 +245,7 @@
                 "is_template": 0,
                 "asset_type": null,
                 "created_at": "2023-08-07 18:29:07",
-                "updated_at": "2023-12-07 19:24:57"
+                "updated_at": "2023-12-07 20:30:10"
             },
             "extraAttributes": {
                 "translatedLanguages": []
@@ -350,11 +315,11 @@
             "process_manager": "Admin User",
             "process_manager_id": 1,
             "attributes": {
-                "id": 11,
+                "id": 14,
                 "uuid": "99d5bdff-0358-4b78-b1a9-47f59d9ea134",
                 "process_category_id": 2,
                 "user_id": 1,
-                "bpmn": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<bpmn:definitions xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:bpmn=\"http://www.omg.org/spec/BPMN/20100524/MODEL\" xmlns:bpmndi=\"http://www.omg.org/spec/BPMN/20100524/DI\" xmlns:dc=\"http://www.omg.org/spec/DD/20100524/DC\" xmlns:di=\"http://www.omg.org/spec/DD/20100524/DI\" xmlns:pm=\"http://processmaker.com/BPMN/2.0/Schema.xsd\" xmlns:tns=\"http://sourceforge.net/bpmn/definitions/_1530553328908\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" targetNamespace=\"http://bpmn.io/schema/bpmn\" exporter=\"ProcessMaker Modeler\" exporterVersion=\"1.0\" xsi:schemaLocation=\"http://www.omg.org/spec/BPMN/20100524/MODEL http://bpmn.sourceforge.net/schemas/BPMN20.xsd\">\n  <bpmn:process id=\"ProcessId\" name=\"ProcessName\" isExecutable=\"true\">\n    <bpmn:startEvent id=\"node_1\" name=\"Start Event\" pm:allowInterstitial=\"false\" pm:config=\"{&quot;web_entry&quot;:null}\">\n      <bpmn:outgoing>node_28</bpmn:outgoing>\n    </bpmn:startEvent>\n    <bpmn:scriptTask id=\"node_10\" name=\"Script Task\" pm:scriptRef=\"16\">\n      <bpmn:incoming>node_28</bpmn:incoming>\n      <bpmn:outgoing>node_23</bpmn:outgoing>\n    </bpmn:scriptTask>\n    <bpmn:endEvent id=\"node_20\" name=\"End Event\">\n      <bpmn:incoming>node_23</bpmn:incoming>\n    </bpmn:endEvent>\n    <bpmn:sequenceFlow id=\"node_23\" sourceRef=\"node_10\" targetRef=\"node_20\"/>\n    <bpmn:sequenceFlow id=\"node_28\" sourceRef=\"node_1\" targetRef=\"node_10\"/>\n  </bpmn:process>\n  <bpmndi:BPMNDiagram id=\"BPMNDiagramId\">\n    <bpmndi:BPMNPlane id=\"BPMNPlaneId\" bpmnElement=\"ProcessId\">\n      <bpmndi:BPMNShape id=\"node_1_di\" bpmnElement=\"node_1\">\n        <dc:Bounds x=\"221\" y=\"248\" width=\"36\" height=\"36\"/>\n      </bpmndi:BPMNShape>\n      <bpmndi:BPMNShape id=\"node_10_di\" bpmnElement=\"node_10\">\n        <dc:Bounds x=\"336\" y=\"228\" width=\"116\" height=\"76\"/>\n      </bpmndi:BPMNShape>\n      <bpmndi:BPMNShape id=\"node_20_di\" bpmnElement=\"node_20\">\n        <dc:Bounds x=\"555\" y=\"249\" width=\"36\" height=\"36\"/>\n      </bpmndi:BPMNShape>\n      <bpmndi:BPMNEdge id=\"node_23_di\" bpmnElement=\"node_23\">\n        <di:waypoint x=\"394\" y=\"266\"/>\n        <di:waypoint x=\"573\" y=\"267\"/>\n      </bpmndi:BPMNEdge>\n      <bpmndi:BPMNEdge id=\"node_28_di\" bpmnElement=\"node_28\">\n        <di:waypoint x=\"239\" y=\"266\"/>\n        <di:waypoint x=\"394\" y=\"266\"/>\n      </bpmndi:BPMNEdge>\n    </bpmndi:BPMNPlane>\n  </bpmndi:BPMNDiagram>\n</bpmn:definitions>\n",
+                "bpmn": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<bpmn:definitions xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:bpmn=\"http://www.omg.org/spec/BPMN/20100524/MODEL\" xmlns:bpmndi=\"http://www.omg.org/spec/BPMN/20100524/DI\" xmlns:dc=\"http://www.omg.org/spec/DD/20100524/DC\" xmlns:di=\"http://www.omg.org/spec/DD/20100524/DI\" xmlns:pm=\"http://processmaker.com/BPMN/2.0/Schema.xsd\" xmlns:tns=\"http://sourceforge.net/bpmn/definitions/_1530553328908\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" targetNamespace=\"http://bpmn.io/schema/bpmn\" exporter=\"ProcessMaker Modeler\" exporterVersion=\"1.0\" xsi:schemaLocation=\"http://www.omg.org/spec/BPMN/20100524/MODEL http://bpmn.sourceforge.net/schemas/BPMN20.xsd\">\n  <bpmn:process id=\"ProcessId\" name=\"ProcessName\" isExecutable=\"true\">\n    <bpmn:startEvent id=\"node_1\" name=\"Start Event\" pm:allowInterstitial=\"false\" pm:config=\"{&quot;web_entry&quot;:null}\">\n      <bpmn:outgoing>node_28</bpmn:outgoing>\n    </bpmn:startEvent>\n    <bpmn:scriptTask id=\"node_10\" name=\"Script Task\" pm:scriptRef=\"19\">\n      <bpmn:incoming>node_28</bpmn:incoming>\n      <bpmn:outgoing>node_23</bpmn:outgoing>\n    </bpmn:scriptTask>\n    <bpmn:endEvent id=\"node_20\" name=\"End Event\">\n      <bpmn:incoming>node_23</bpmn:incoming>\n    </bpmn:endEvent>\n    <bpmn:sequenceFlow id=\"node_23\" sourceRef=\"node_10\" targetRef=\"node_20\"/>\n    <bpmn:sequenceFlow id=\"node_28\" sourceRef=\"node_1\" targetRef=\"node_10\"/>\n  </bpmn:process>\n  <bpmndi:BPMNDiagram id=\"BPMNDiagramId\">\n    <bpmndi:BPMNPlane id=\"BPMNPlaneId\" bpmnElement=\"ProcessId\">\n      <bpmndi:BPMNShape id=\"node_1_di\" bpmnElement=\"node_1\">\n        <dc:Bounds x=\"221\" y=\"248\" width=\"36\" height=\"36\"/>\n      </bpmndi:BPMNShape>\n      <bpmndi:BPMNShape id=\"node_10_di\" bpmnElement=\"node_10\">\n        <dc:Bounds x=\"336\" y=\"228\" width=\"116\" height=\"76\"/>\n      </bpmndi:BPMNShape>\n      <bpmndi:BPMNShape id=\"node_20_di\" bpmnElement=\"node_20\">\n        <dc:Bounds x=\"555\" y=\"249\" width=\"36\" height=\"36\"/>\n      </bpmndi:BPMNShape>\n      <bpmndi:BPMNEdge id=\"node_23_di\" bpmnElement=\"node_23\">\n        <di:waypoint x=\"394\" y=\"266\"/>\n        <di:waypoint x=\"573\" y=\"267\"/>\n      </bpmndi:BPMNEdge>\n      <bpmndi:BPMNEdge id=\"node_28_di\" bpmnElement=\"node_28\">\n        <di:waypoint x=\"239\" y=\"266\"/>\n        <di:waypoint x=\"394\" y=\"266\"/>\n      </bpmndi:BPMNEdge>\n    </bpmndi:BPMNPlane>\n  </bpmndi:BPMNDiagram>\n</bpmn:definitions>\n",
                 "description": "A financial assistance tool.",
                 "name": "Financial Assistant",
                 "cancel_screen_id": null,
@@ -365,7 +330,7 @@
                 "pause_timer_start": 0,
                 "deleted_at": null,
                 "created_at": "2023-08-07 18:16:26",
-                "updated_at": "2023-12-07 19:24:57",
+                "updated_at": "2023-12-07 20:30:10",
                 "start_events": "[{\"id\": \"node_1\", \"name\": \"Start Event\", \"config\": \"{\\\"web_entry\\\":null}\", \"ownerProcessId\": \"ProcessId\", \"eventDefinitions\": [], \"ownerProcessName\": \"ProcessName\", \"allowInterstitial\": \"false\"}]",
                 "warnings": null,
                 "self_service_tasks": "[]",
@@ -433,7 +398,7 @@
                 "is_system": 0,
                 "expires_at": null,
                 "loggedin_at": "2023-12-07 19:24:28",
-                "active_at": "2023-12-07 19:25:41",
+                "active_at": "2023-12-07 22:18:10",
                 "remember_token": null,
                 "created_at": "2023-12-07 19:07:07",
                 "updated_at": "2023-12-07 19:07:16",
@@ -491,14 +456,14 @@
                 },
                 {
                     "type": "executor",
-                    "uuid": "9acb3c7c-a8fc-4f99-8921-1e9269b4400e",
+                    "uuid": "9acb37b3-a8ed-49dc-b4de-f686ad4e286f",
                     "meta": null,
                     "exporterClass": "ProcessMaker\\ImportExport\\Exporters\\ScriptExecutorExporter",
                     "modelClass": "ProcessMaker\\Models\\ScriptExecutor",
                     "fallbackMatches": {
-                        "title": "Node Executor for SSR"
+                        "title": "PHP Executor"
                     },
-                    "name": "Node Executor for SSR",
+                    "name": "PHP Executor",
                     "discard": false
                 }
             ],
@@ -507,7 +472,7 @@
             "process_manager": "",
             "process_manager_id": null,
             "attributes": {
-                "id": 16,
+                "id": 19,
                 "uuid": "99d5bdff-0c00-492f-a5eb-c112597d4006",
                 "key": null,
                 "title": "OpenAI completion API",
@@ -522,7 +487,7 @@
                 "updated_at": "2023-08-07 18:08:50",
                 "status": "ACTIVE",
                 "script_category_id": 1,
-                "script_executor_id": 4,
+                "script_executor_id": 3,
                 "is_template": 0,
                 "asset_type": "PM_BLOCK"
             },
@@ -533,7 +498,7 @@
                 "uncategorized-category": true
             }
         },
-        "9acb3c7c-a8fc-4f99-8921-1e9269b4400e": {
+        "9acb37b3-a8ed-49dc-b4de-f686ad4e286f": {
             "exporter": "ProcessMaker\\ImportExport\\Exporters\\ScriptExecutorExporter",
             "type": "ScriptExecutor",
             "type_human": "Script Executor",
@@ -548,20 +513,20 @@
             "saveAssetsMode": "saveAllAssets",
             "explicit_discard": false,
             "dependents": [],
-            "name": "Node Executor for SSR",
-            "description": "Node Executor for SSR",
+            "name": "PHP Executor",
+            "description": "Default PHP Executor",
             "process_manager": "",
             "process_manager_id": null,
             "attributes": {
-                "id": 4,
-                "uuid": "9acb3c7c-a8fc-4f99-8921-1e9269b4400e",
-                "title": "Node Executor for SSR",
-                "description": "Node Executor for SSR",
-                "language": "javascript-ssr",
-                "config": null,
+                "id": 3,
+                "uuid": "9acb37b3-a8ed-49dc-b4de-f686ad4e286f",
+                "title": "PHP Executor",
+                "description": "Default PHP Executor",
+                "language": "php",
+                "config": "RUN composer require aws/aws-sdk-php:3.226.0",
                 "is_system": 0,
-                "created_at": "2023-12-07 19:20:38",
-                "updated_at": "2023-12-07 19:20:38"
+                "created_at": "2023-12-07 19:07:15",
+                "updated_at": "2023-12-07 19:07:15"
             },
             "extraAttributes": {
                 "translatedLanguages": []

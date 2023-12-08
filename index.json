@@ -3,8 +3,8 @@
         {
             "name": "Currency",
             "description": "Query currency value in real-time.",
-            "hash": "260566281cc9d6d3ebf93d045a85ddc9757afff0",
-            "mod_time": "2023-08-07 17:36:25",
+            "hash": "16923ee45f661e9e63dc05ebfde648dbf2c58d81",
+            "mod_time": "2023-12-07 22:26:22",
             "relative_path": ".\/finance\/currency.json",
             "uuid": "99d5a176-5c3f-4084-ac36-93b6ff40501b",
             "version": "1.0.0"
@@ -12,8 +12,8 @@
         {
             "name": "Financial Assistant",
             "description": "A financial assistance tool.",
-            "hash": "8fe38c771290da97e68a3b1c62d6072e149c304d",
-            "mod_time": "2023-08-07 19:25:57",
+            "hash": "98b13148f7f7bcb755920994195982be67514b8a",
+            "mod_time": "2023-12-07 20:30:10",
             "relative_path": ".\/finance\/financial-assistant.json",
             "uuid": "99d5bdff-9062-4aee-84cf-1972e598da93",
             "version": "1.0.0"
@@ -23,8 +23,8 @@
         {
             "name": "Calculator",
             "description": "A simple calculator.",
-            "hash": "03207c4fdc8843f0549cf52b4a3333ecd23ac3a2",
-            "mod_time": "2023-08-07 15:02:20",
+            "hash": "af1e80c3e93e8d5ec915a926e81ca2b2251c3456",
+            "mod_time": "2023-12-07 22:26:23",
             "relative_path": ".\/math\/calculator.json",
             "uuid": "99d57353-3366-4aff-aabb-95d209a2ad19",
             "version": "1.0.0"
